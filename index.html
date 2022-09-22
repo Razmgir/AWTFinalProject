@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Class Project - Advanced Web Technologies</title>
+        <meta name="description" content="Advanced Web Technologies home page featuring javascript functionality and design exercises with HTML and CSS.">
+        <meta name="keyword" content="Advanced Web Technologies, javascript">
+        
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Advanced Web Technologies</h1>
+            <p>In this course we will learn about HTML, CSS, Javascripts and Advanced web technologies. You will see some of the features here.</p>
+            <section>
+                <h1>Local Storage</h1>
+                <hr>
+                <h1 id="result" style="font-size: 8em; margin: 0.2em;"></h1>
+                <button onclick="add()" id="addbtn">ADD</button>
+            </section>
+            <section>
+                <h1>Web Workers</h1>
+                <hr>
+                <h1 id="result2" style="font-size: 8em; margin: 0.2em;">0</h1>
+                <button onclick="start()" id="addbtn">Start</button>
+                <button onclick="stop()" id="stopbtn">Stop</button>
+            </section>
+            <section>
+                <h1>Geolocation</h1>
+                <hr>
+                <br>
+                <button onclick="geo()" id="addbtn">Get location</button>
+                <h3 id="result3"></h3>
+            </section>
+        </main>
+        <footer>
+            <p>&copy 2022 | Created by triOS class</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
